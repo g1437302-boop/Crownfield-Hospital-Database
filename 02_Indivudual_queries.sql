@@ -1,3 +1,4 @@
+USE `6_query_my`;
 SELECT 
 c.name AS clinic_Name, COUNT(a.appointment_id) As total_appointments
 FROM clinic c
